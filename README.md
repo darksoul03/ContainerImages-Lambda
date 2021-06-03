@@ -9,7 +9,7 @@ This repo is to implement container images with Lambda, specifically for Python 
 
 ```bash
 - docker build -t docker-lambda .
-- docker push 093623478159.dkr.ecr.us-east-1.amazonaws.com/docker-lambda
+- docker push image-url/docker-lambda
 ```
 Add tags if required.
 - Create Lambda with container using the recently pushed image. 
